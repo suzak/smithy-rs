@@ -77,6 +77,7 @@ class EndpointBddGenerator(
 
         private val allowLintsForBddResolver =
             listOf(
+                "unused_variables",
                 "clippy::double_parens",
                 "clippy::useless_conversion",
                 "clippy::bool_comparison",
